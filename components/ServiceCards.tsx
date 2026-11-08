@@ -1,31 +1,79 @@
-import { useTranslations } from "next-intl";
-import { Reveal } from "./Reveal";
-import { SectionLink } from "./SectionLink";
+"use client";
 
-const ICONS: Record<string, React.ReactNode> = {
-  web: <path d="M3 5h18v14H3zM3 9h18M7 7h.01M10 7h.01" />,
-  software: <path d="M4 5h16v10H4zM8 19h8M12 15v4M8 9l2 2-2 2M12 13h4" />,
-  ai: <path d="M12 3v3M12 18v3M3 12h3M18 12h3M7 7l2 2M15 15l2 2M17 7l-2 2M9 15l-2 2M9 9h6v6H9z" />,
-  consulting: <path d="M6 6a2 2 0 1 0 0 .01M18 6a2 2 0 1 0 0 .01M12 18a2 2 0 1 0 0 .01M7.5 7.5l3.5 9M16.5 7.5L13 16.5M8 6h8" />,
+import type { IconType } from "react-icons";
+import { useTranslations } from "next-intl";
+import { AiFillDatabase } from "react-icons/ai";
+import { BsLaptop } from "react-icons/bs";
+import { FaCode } from "react-icons/fa";
+import { FaMobile, FaPencil } from "react-icons/fa6";
+import { GrGenai } from "react-icons/gr";
+import { IoDesktop } from "react-icons/io5";
+import { MdCloud } from "react-icons/md";
+import { TbShieldLockFilled } from "react-icons/tb";
+import { AccordionGallery } from "./AccordionGallery";
+
+type CapabilityId =
+  | "database"
+  | "development"
+  | "web"
+  | "desktop"
+  | "mobile"
+  | "ai"
+  | "design"
+  | "security"
+  | "cloud";
+
+type Capability = {
+  id: CapabilityId;
+  section: string;
+  short: string;
+  detail: string;
+  points: string[];
+};
+
+const CAPABILITY_ICONS: Record<CapabilityId, IconType> = {
+  database: AiFillDatabase,
+  development: FaCode,
+  web: BsLaptop,
+  desktop: IoDesktop,
+  mobile: FaMobile,
+  ai: GrGenai,
+  design: FaPencil,
+  security: TbShieldLockFilled,
+  cloud: MdCloud,
 };
 
 export function ServiceCards() {
   const t = useTranslations();
-  const items = t.raw("services.items") as { id: string; title: string; short: string }[];
+  const icons = useTranslations("home.hero.icons");
+  const capabilities = t.raw("home.services.capabilities") as Capability[];
+
   return (
-    <div className="grid gap-5 md:grid-cols-2">
-      {items.map((s, i) => (
-        <Reveal key={s.id} delay={i * 0.08}>
-          <SectionLink href="/services" section={s.id} className="card group flex h-full flex-col p-7 transition-colors hover:border-azure/50">
-            <span className="mb-5 grid h-12 w-12 place-items-center rounded-md bg-sky/45 text-royal">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">{ICONS[s.id]}</svg>
-            </span>
-            <h3 className="h3">{s.title}</h3>
-            <p className="mt-2 flex-1 text-navy/75">{s.short}</p>
-            <span className="mt-5 text-sm font-semibold text-azure">{t("common.learnMore")} <span aria-hidden className="inline-block transition-transform group-hover:translate-x-1">→</span></span>
-          </SectionLink>
-        </Reveal>
-      ))}
-    </div>
+    <AccordionGallery
+      items={capabilities.map((s) => {
+        const Icon = CAPABILITY_ICONS[s.id];
+        return {
+          id: s.id,
+          section: s.section,
+          label: icons(s.id),
+          description: s.short,
+          detail: s.detail,
+          points: s.points,
+          href: "/services",
+          icon: <Icon aria-hidden />,
+        };
+      })}
+      ctaLabel={t("common.learnMore")}
+      defaultIndex={0}
+      height={580}
+      expandRatio={0.4}
+      trigger="hover"
+      gap={8}
+      radius={16}
+      tilt={0}
+      accentColor="#a6e1fa"
+      overlayColor="#001c55"
+      textColor="#ffffff"
+    />
   );
 }

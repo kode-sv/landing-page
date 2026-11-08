@@ -31,7 +31,7 @@ export function Header() {
       >
         {t("skip")}
       </a>
-      <div className="container-x flex h-16 items-center justify-between gap-4">
+      <div className="mx-auto flex h-16 w-full items-center justify-between gap-4 px-6 md:px-10 lg:px-12 xl:px-16">
         <Link href="/" aria-label="Kode SV" className="inline-flex items-center leading-none">
           <Logo className="h-7" />
         </Link>
@@ -80,7 +80,7 @@ export function Header() {
       </div>
       {open && (
         <div id="mobile-nav" className="border-t border-navy/10 bg-white md:hidden">
-          <nav className="container-x flex flex-col gap-1 py-4" aria-label="Principal">
+          <nav className="mx-auto flex w-full flex-col gap-1 px-6 py-4 md:px-10 lg:px-12 xl:px-16" aria-label="Principal">
             {LINKS.map(({ href, key }) => (
               <Link key={key} href={href} onClick={() => setOpen(false)} className="rounded-lg px-2 py-3 text-lg font-bold text-royal">
                 {t(key)}

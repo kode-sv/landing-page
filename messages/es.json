@@ -64,7 +64,7 @@
         "web": "App Web",
         "desktop": "App de Escritorio",
         "mobile": "App Móvil",
-        "ai": "AI",
+        "ai": "Inteligencia artificial",
         "design": "Diseño",
         "security": "Seguridad",
         "cloud": "Nube"
@@ -78,7 +78,108 @@
     "services": {
       "eyebrow": "Qué hacemos",
       "title": "Nuestros servicios.",
-      "intro": "Software a la medida de tu operación, sin plantillas que no encajan."
+      "intro": "Software a la medida de tu operación, sin plantillas que no encajan.",
+      "capabilities": [
+        {
+          "id": "database",
+          "section": "software",
+          "short": "Modelado, optimización y administración de datos para operaciones confiables.",
+          "detail": "Diseñamos esquemas claros, consultas eficientes y respaldos que sostienen tu operación día a día, sin sorpresas cuando el volumen crece.",
+          "points": [
+            "Modelado relacional y migraciones controladas",
+            "Rendimiento, índices y reportes confiables",
+            "Respaldos, permisos y trazabilidad"
+          ]
+        },
+        {
+          "id": "development",
+          "section": "software",
+          "short": "Software a medida que se adapta a cómo opera tu negocio, de punta a punta.",
+          "detail": "Diseñamos y construimos la aplicación completa: lo que ve tu equipo y lo que hace el sistema por detrás, con entregas claras y un producto fácil de mantener.",
+          "points": [
+            "Pantallas claras y fáciles de usar",
+            "Procesos y reglas de tu negocio bien resueltos",
+            "Conexión con las herramientas que ya usas"
+          ]
+        },
+        {
+          "id": "web",
+          "section": "web",
+          "short": "Aplicaciones y sitios web rápidos, seguros y pensados para convertir.",
+          "detail": "Desde sitios corporativos bilingües hasta portales y plataformas comerciales: performance, SEO técnico y una experiencia clara para tus usuarios.",
+          "points": [
+            "Sitios y portales a medida",
+            "Formularios, catálogos y captación de leads",
+            "SEO técnico, analítica y accesibilidad"
+          ]
+        },
+        {
+          "id": "desktop",
+          "section": "software",
+          "short": "Software de escritorio productivo, estable y alineado a tu flujo de trabajo.",
+          "detail": "Aplicaciones para equipos que necesitan velocidad offline, hardware local o flujos internos que una web no resuelve del todo.",
+          "points": [
+            "Apps de escritorio multiplataforma",
+            "Integración con dispositivos y archivos locales",
+            "Actualizaciones controladas y soporte"
+          ]
+        },
+        {
+          "id": "mobile",
+          "section": "web",
+          "short": "Apps móviles nativas o multiplataforma listas para tus clientes y tu equipo.",
+          "detail": "Llevamos tu operación al teléfono con interfaces simples, notificaciones útiles y sincronización con tu backend o CRM.",
+          "points": [
+            "iOS y Android, nativo o cross-platform",
+            "Autenticación, perfiles y notificaciones",
+            "Sincronización con APIs y paneles web"
+          ]
+        },
+        {
+          "id": "ai",
+          "section": "ai",
+          "short": "IA aplicada a tu operación: asistentes, automatización inteligente y extracción de datos.",
+          "detail": "Integramos modelos y flujos de IA donde aportan valor medible: menos trabajo manual, mejores respuestas internas y procesos que antes pedían horas humanas.",
+          "points": [
+            "Asistentes conectados a tu información",
+            "Procesamiento inteligente de documentos",
+            "Automatización con IA de tareas repetitivas"
+          ]
+        },
+        {
+          "id": "design",
+          "section": "web",
+          "short": "Interfaces claras y experiencias de producto que tu equipo realmente usa.",
+          "detail": "Diseñamos pantallas y flujos que reducen fricción: jerarquía visual, estados claros y una UI coherente con tu marca.",
+          "points": [
+            "UX/UI para productos y paneles",
+            "Sistemas de componentes y consistencia",
+            "Prototipos listos para desarrollo"
+          ]
+        },
+        {
+          "id": "security",
+          "section": "consulting",
+          "short": "Prácticas de seguridad, control de acceso y protección de datos desde el diseño.",
+          "detail": "Incorporamos autenticación, roles y buenas prácticas para que tu software proteja la información sin frenar al equipo.",
+          "points": [
+            "Roles, permisos y auditoría",
+            "Protección de datos y secretos",
+            "Revisión de riesgos en arquitectura"
+          ]
+        },
+        {
+          "id": "cloud",
+          "section": "consulting",
+          "short": "Despliegue, infraestructura y operación en la nube con foco en confiabilidad.",
+          "detail": "Montamos entornos listos para producción: CI/CD, monitoreo y una base que aguanta crecimiento sin improvisar en el lanzamiento.",
+          "points": [
+            "Despliegue en Vercel y cloud",
+            "CI/CD, ambientes y monitoreo",
+            "Escalabilidad y costos controlados"
+          ]
+        }
+      ]
     },
     "work": {
       "eyebrow": "Proyectos",

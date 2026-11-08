@@ -64,7 +64,7 @@
         "web": "Web App",
         "desktop": "Desktop App",
         "mobile": "Mobile App",
-        "ai": "AI",
+        "ai": "Artificial intelligence",
         "design": "Design",
         "security": "Security",
         "cloud": "Cloud"
@@ -78,7 +78,108 @@
     "services": {
       "eyebrow": "What we do",
       "title": "Our services.",
-      "intro": "Software tailored to your operation, without templates that don't fit."
+      "intro": "Software tailored to your operation, without templates that don't fit.",
+      "capabilities": [
+        {
+          "id": "database",
+          "section": "software",
+          "short": "Data modeling, optimization and administration for reliable operations.",
+          "detail": "We design clear schemas, efficient queries and backups that keep your operation running as volume grows — without surprises.",
+          "points": [
+            "Relational modeling and controlled migrations",
+            "Performance, indexes and dependable reporting",
+            "Backups, permissions and audit trails"
+          ]
+        },
+        {
+          "id": "development",
+          "section": "software",
+          "short": "Custom software that fits how your business actually runs — end to end.",
+          "detail": "We design and build the full application: what your team sees and what the system does behind the scenes, with clear deliveries and a product that’s easy to maintain.",
+          "points": [
+            "Clear, easy-to-use screens",
+            "Your business processes and rules, well solved",
+            "Connection with the tools you already use"
+          ]
+        },
+        {
+          "id": "web",
+          "section": "web",
+          "short": "Fast, secure web apps and sites designed to convert.",
+          "detail": "From bilingual corporate sites to portals and commercial platforms: performance, technical SEO and a clear experience for your users.",
+          "points": [
+            "Custom sites and portals",
+            "Forms, catalogs and lead capture",
+            "Technical SEO, analytics and accessibility"
+          ]
+        },
+        {
+          "id": "desktop",
+          "section": "software",
+          "short": "Stable desktop software aligned with how your team actually works.",
+          "detail": "Applications for teams that need offline speed, local hardware or internal workflows a browser alone cannot fully solve.",
+          "points": [
+            "Cross-platform desktop apps",
+            "Local device and file integration",
+            "Controlled updates and support"
+          ]
+        },
+        {
+          "id": "mobile",
+          "section": "web",
+          "short": "Native or cross-platform mobile apps for your customers and your team.",
+          "detail": "We take your operation to the phone with simple interfaces, useful notifications and sync with your backend or CRM.",
+          "points": [
+            "iOS and Android, native or cross-platform",
+            "Auth, profiles and notifications",
+            "Sync with APIs and web dashboards"
+          ]
+        },
+        {
+          "id": "ai",
+          "section": "ai",
+          "short": "AI for your operation: assistants, intelligent automation and data extraction.",
+          "detail": "We integrate AI models and flows where they add measurable value: less manual work, better internal answers and processes that used to take hours.",
+          "points": [
+            "Assistants connected to your information",
+            "Intelligent document processing",
+            "AI-powered automation of repetitive tasks"
+          ]
+        },
+        {
+          "id": "design",
+          "section": "web",
+          "short": "Clear interfaces and product experiences your team will actually use.",
+          "detail": "We design screens and flows that reduce friction: visual hierarchy, clear states and a UI consistent with your brand.",
+          "points": [
+            "UX/UI for products and dashboards",
+            "Component systems and consistency",
+            "Prototypes ready for development"
+          ]
+        },
+        {
+          "id": "security",
+          "section": "consulting",
+          "short": "Security practices, access control and data protection by design.",
+          "detail": "We build in authentication, roles and best practices so your software protects information without slowing the team down.",
+          "points": [
+            "Roles, permissions and auditing",
+            "Data and secrets protection",
+            "Architecture risk review"
+          ]
+        },
+        {
+          "id": "cloud",
+          "section": "consulting",
+          "short": "Cloud deployment, infrastructure and operations focused on reliability.",
+          "detail": "We set up production-ready environments: CI/CD, monitoring and a foundation that scales without improvising at launch.",
+          "points": [
+            "Deploy on Vercel and cloud",
+            "CI/CD, environments and monitoring",
+            "Scalability with controlled costs"
+          ]
+        }
+      ]
     },
     "work": {
       "eyebrow": "Work",

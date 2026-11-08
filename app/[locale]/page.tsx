@@ -77,14 +77,13 @@ function HomePageContent() {
       </section>
 
       <section className="border-t border-azure/20 bg-gradient-to-b from-white to-mist/60 py-20 md:py-28">
-        <div className="container-x">
-          <Reveal className="mb-12 max-w-2xl">
+        <div className="w-full px-6 md:px-10 lg:px-12 xl:px-16">
+          <Reveal className="mb-12 max-w-2xl text-left">
             <p className="eyebrow">{t("services.eyebrow")}</p>
             <h2 className="h2 mt-4">{t("services.title")}</h2>
             <p className="mt-4 text-lg text-royal/75">{t("services.intro")}</p>
           </Reveal>
           <ServiceCards />
-          <div className="mt-8"><Link href="/services" className="btn btn-ghost">{c("viewAll")}</Link></div>
         </div>
       </section>
 

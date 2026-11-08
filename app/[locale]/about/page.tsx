@@ -32,7 +32,7 @@ function AboutPageContent() {
         </section>
         <section>
           <h2 className="h2 mb-4">{t("team.title")}</h2>
-          <p className="rounded-xl border border-dashed border-sky/30 p-6 text-dim">{t("team.note")}</p>
+          <p className="rounded-xl border border-dashed border-navy/15 p-6 text-dim">{t("team.note")}</p>
         </section>
       </div>
       <FinalCta />

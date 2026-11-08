@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/navigation";
 import { Reveal } from "./Reveal";
+import { SectionLink } from "./SectionLink";
 
 const ICONS: Record<string, React.ReactNode> = {
   web: <path d="M3 5h18v14H3zM3 9h18M7 7h.01M10 7h.01" />,
@@ -16,14 +16,14 @@ export function ServiceCards() {
     <div className="grid gap-5 md:grid-cols-2">
       {items.map((s, i) => (
         <Reveal key={s.id} delay={i * 0.08}>
-          <Link href={`/services#${s.id}`} className="card group flex h-full flex-col p-7 transition-colors hover:border-sky/50">
-            <span className="mb-5 grid h-12 w-12 place-items-center rounded-xl bg-sky/10 text-sky">
+          <SectionLink href="/services" section={s.id} className="card group flex h-full flex-col p-7 transition-colors hover:border-azure/50">
+            <span className="mb-5 grid h-12 w-12 place-items-center rounded-md bg-sky/45 text-royal">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">{ICONS[s.id]}</svg>
             </span>
             <h3 className="h3">{s.title}</h3>
-            <p className="mt-2 flex-1 text-mist">{s.short}</p>
-            <span className="mt-5 text-sm font-semibold text-sky">{t("common.learnMore")} <span aria-hidden className="inline-block transition-transform group-hover:translate-x-1">→</span></span>
-          </Link>
+            <p className="mt-2 flex-1 text-navy/75">{s.short}</p>
+            <span className="mt-5 text-sm font-semibold text-azure">{t("common.learnMore")} <span aria-hidden className="inline-block transition-transform group-hover:translate-x-1">→</span></span>
+          </SectionLink>
         </Reveal>
       ))}
     </div>

@@ -16,7 +16,7 @@ function PageContent() {
     <article className="container-x max-w-3xl py-20 md:py-28">
       <h1 className="h1 !text-[clamp(2rem,5vw,3.25rem)]">{t("title")}</h1>
       <p className="mt-3 text-sm text-dim">{t("updated")}</p>
-      <p className="mt-6 rounded-lg border border-dashed border-sky/30 p-3 text-sm text-dim">{t("draft")}</p>
+      <p className="mt-6 rounded-lg border border-dashed border-navy/15 p-3 text-sm text-dim">{t("draft")}</p>
       {sections.map((s) => (
         <section key={s.h} className="mt-10"><h2 className="h3">{s.h}</h2><p className="mt-2 text-lg">{s.p}</p></section>
       ))}

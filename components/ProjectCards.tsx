@@ -14,11 +14,11 @@ export function ProjectCards({ limit }: { limit?: number }) {
             <p className="eyebrow">{p.sector}</p>
             <h3 className="h3 mt-3">{p.title}</h3>
             <dl className="mt-5 space-y-4 text-sm">
-              <div><dt className="font-semibold text-white">{t("common.problem")}</dt><dd className="mt-1 text-mist">{p.problem}</dd></div>
-              <div><dt className="font-semibold text-white">{t("common.solution")}</dt><dd className="mt-1 text-mist">{p.solution}</dd></div>
+              <div><dt className="font-semibold text-ink">{t("common.problem")}</dt><dd className="mt-1 text-navy/75">{p.problem}</dd></div>
+              <div><dt className="font-semibold text-ink">{t("common.solution")}</dt><dd className="mt-1 text-navy/75">{p.solution}</dd></div>
             </dl>
             <ul className="mt-auto flex flex-wrap gap-2 pt-6" aria-label={t("common.stack")}>
-              {p.tech.map((x) => <li key={x} className="rounded-full border border-sky/20 px-3 py-1 text-xs text-sky">{x}</li>)}
+              {p.tech.map((x) => <li key={x} className="rounded-md border border-azure/30 bg-sky/20 px-3 py-1 text-xs text-azure">{x}</li>)}
             </ul>
           </article>
         </Reveal>

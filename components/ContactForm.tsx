@@ -28,16 +28,16 @@ export function ContactForm() {
   if (status === "ok") {
     return (
       <div role="status" className="card p-8 text-center">
-        <span className="mx-auto mb-4 grid h-12 w-12 place-items-center rounded-full bg-sky/15 text-sky" aria-hidden>✓</span>
+        <span className="mx-auto mb-4 grid h-12 w-12 place-items-center rounded-md bg-mist text-royal" aria-hidden>✓</span>
         <h3 className="h3">{t("success.title")}</h3>
-        <p className="mt-2 text-mist">{t("success.text")}</p>
+        <p className="mt-2 text-navy/75">{t("success.text")}</p>
       </div>
     );
   }
 
   const err = (k: keyof typeof errors) => errors[k] ? t(`errors.${k as "name"}`) : null;
-  const L = ({ id, children }: { id: string; children: React.ReactNode }) => <label htmlFor={id} className="mb-1.5 block text-sm font-medium text-white">{children}</label>;
-  const E = ({ id, k }: { id: string; k: keyof typeof errors }) => err(k) ? <p id={`${id}-err`} role="alert" className="mt-1 text-sm text-[#ff9a9e]">{err(k)}</p> : null;
+  const L = ({ id, children }: { id: string; children: React.ReactNode }) => <label htmlFor={id} className="mb-1.5 block text-sm font-medium text-ink">{children}</label>;
+  const E = ({ id, k }: { id: string; k: keyof typeof errors }) => err(k) ? <p id={`${id}-err`} role="alert" className="mt-1 text-sm text-[#c62828]">{err(k)}</p> : null;
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} noValidate className="card space-y-5 p-6 md:p-8">
@@ -70,14 +70,14 @@ export function ContactForm() {
       </div>
 
       <div>
-        <label className="flex items-start gap-3 text-sm text-mist">
-          <input type="checkbox" className="mt-1 h-4 w-4 accent-[#a6e1fa]" aria-invalid={!!errors.consent} {...register("consent")} />
-          <span>{t("consent")} <Link href="/privacy" className="text-sky underline">{t("privacy")}</Link></span>
+        <label className="flex items-start gap-3 text-sm text-navy/80">
+          <input type="checkbox" className="mt-1 h-4 w-4 accent-azure" aria-invalid={!!errors.consent} {...register("consent")} />
+          <span>{t("consent")} <Link href="/privacy" className="text-azure underline">{t("privacy")}</Link></span>
         </label>
         <E id="consent" k="consent" />
       </div>
 
-      {status === "error" && <p role="alert" className="rounded-lg border border-[#ff7b80]/40 bg-[#ff7b80]/10 p-3 text-sm text-[#ffb3b6]">{t("error")}</p>}
+      {status === "error" && <p role="alert" className="rounded-lg border border-[#ff7b80]/40 bg-[#ff7b80]/10 p-3 text-sm text-[#c62828]">{t("error")}</p>}
       <button type="submit" disabled={isSubmitting} className="btn btn-primary w-full disabled:opacity-60 md:w-auto">
         {isSubmitting ? t("sending") : t("submit")}
       </button>

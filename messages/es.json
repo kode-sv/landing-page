@@ -34,8 +34,8 @@
     "home": "Inicio",
     "services": "Servicios",
     "work": "Proyectos",
-    "about": "Nosotros",
-    "contact": "Contacto",
+    "about": "Sobre nosotros",
+    "contact": "Contáctanos",
     "book": "Agendar reunión",
     "menu": "Abrir menú",
     "close": "Cerrar menú",
@@ -54,10 +54,21 @@
   "home": {
     "hero": {
       "eyebrow": "KODE SV — SOFTWARE DEVELOPMENT",
-      "title": "Transformamos ideas en soluciones digitales.",
-      "subtitle": "Desarrollamos aplicaciones web, software empresarial y soluciones con inteligencia artificial para impulsar el crecimiento de tu negocio.",
+      "title": "Construimos la plataforma que tu negocio aún no tiene.",
+      "subtitle": "Diseñamos aplicaciones web, sistemas empresariales y automatización inteligente, a la medida de cómo opera tu negocio.",
       "primary": "Agendar consulta",
       "secondary": "Explorar servicios",
+      "icons": {
+        "database": "Base de Datos",
+        "development": "Desarrollo",
+        "web": "App Web",
+        "desktop": "App de Escritorio",
+        "mobile": "App Móvil",
+        "ai": "AI",
+        "design": "Diseño",
+        "security": "Seguridad",
+        "cloud": "Nube"
+      },
       "badges": [
         "Equipo remoto desde El Salvador",
         "Horario compatible con EE. UU.",

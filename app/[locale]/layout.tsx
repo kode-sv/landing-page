@@ -7,6 +7,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { routing } from "@/i18n/routing";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { ScrollToSection } from "@/components/ScrollToSection";
 import { SITE_URL, alternates } from "@/lib/site";
 import "../globals.css";
 
@@ -50,6 +51,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
     <html lang={locale} className={`${brand.variable} ${display.variable} ${sans.variable}`}>
       <body>
         <NextIntlClientProvider>
+          <ScrollToSection />
           <Header />
           <main id="main">{children}</main>
           <Footer />

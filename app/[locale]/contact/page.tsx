@@ -23,11 +23,11 @@ function ContactPageContent() {
             <h2 className="h3">{t("book.title")}</h2>
             <p className="mt-3 text-sm">{t("book.text")}</p>
             {CAL_LINK
-              ? <iframe title={t("book.title")} src={`${BOOKING_URL}?embed=true&theme=dark&layout=month_view`} className="mt-5 h-[640px] w-full rounded-xl border border-sky/15 bg-white" loading="lazy" />
-              : <p className="mt-5 rounded-lg border border-dashed border-sky/30 p-3 text-xs text-dim">Configura NEXT_PUBLIC_CAL_LINK (p. ej. kode-sv/30min) para activar el calendario.</p>}
+              ? <iframe title={t("book.title")} src={`${BOOKING_URL}?embed=true&theme=light&layout=month_view`} className="mt-5 h-[640px] w-full rounded-xl border border-navy/15 bg-white" loading="lazy" />
+              : <p className="mt-5 rounded-lg border border-dashed border-navy/15 p-3 text-xs text-dim">Configura NEXT_PUBLIC_CAL_LINK (p. ej. kode-sv/30min) para activar el calendario.</p>}
             <p className="mt-3 text-xs text-dim">{t("book.tz")}</p>
           </div>
-          <a href={`mailto:${CONTACT_EMAIL}`} className="block text-sm text-sky hover:underline">{CONTACT_EMAIL}</a>
+          <a href={`mailto:${CONTACT_EMAIL}`} className="block text-sm text-azure hover:underline">{CONTACT_EMAIL}</a>
         </aside>
       </div>
     </>

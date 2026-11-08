@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { Link } from "@/i18n/navigation";
 import { PageHero } from "@/components/PageHero";
 import { FinalCta } from "@/components/FinalCta";
 import { Reveal } from "@/components/Reveal";
+import { SectionLink } from "@/components/SectionLink";
 import { alternates } from "@/lib/site";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]/services">): Promise<Metadata> {
@@ -20,7 +20,7 @@ function List({ title, items }: { title: string; items: string[] }) {
     <div>
       <h4 className="eyebrow mb-3">{title}</h4>
       <ul className="space-y-2">
-        {items.map((x) => <li key={x} className="flex gap-3"><span aria-hidden className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-sky" />{x}</li>)}
+        {items.map((x) => <li key={x} className="flex gap-3"><span aria-hidden className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-azure" />{x}</li>)}
       </ul>
     </div>
   );
@@ -38,20 +38,20 @@ function ServicesPageContent() {
             <section id={s.id} className="card scroll-mt-24 p-7 md:p-10">
               <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
                 <div>
-                  <span className="font-brand text-sm text-sky">0{i + 1}</span>
+                  <span className="inline-flex rounded-md bg-sky/50 px-2 py-0.5 font-brand text-sm text-navy">0{i + 1}</span>
                   <h2 className="h2 mt-3">{s.title}</h2>
-                  <p className="mt-4 text-lg">{s.desc}</p>
+                  <p className="mt-4 text-lg text-navy/80">{s.desc}</p>
                   <ul className="mt-5 flex flex-wrap gap-2" aria-label={t("labels.tech")}>
-                    {s.tech.map((x) => <li key={x} className="rounded-full border border-sky/20 px-3 py-1 text-xs text-sky">{x}</li>)}
+                    {s.tech.map((x) => <li key={x} className="rounded-md border border-azure/30 bg-sky/20 px-3 py-1 text-xs text-azure">{x}</li>)}
                   </ul>
-                  <Link href={`/contact?service=${s.id}#form`} className="btn btn-primary mt-7">Cotizar / Quote →</Link>
+                  <SectionLink href={`/contact?service=${s.id}`} section="form" className="btn btn-primary mt-7">Cotizar / Quote →</SectionLink>
                 </div>
                 <div className="grid gap-8 sm:grid-cols-2">
                   <List title={t("labels.solves")} items={s.solves} />
                   <List title={t("labels.features")} items={s.features} />
-                  <div className="rounded-xl border border-sky/15 bg-ink/50 p-4 sm:col-span-2">
+                  <div className="rounded-xl border border-azure/25 bg-gradient-to-br from-sky/30 to-mist/50 p-4 sm:col-span-2">
                     <p className="eyebrow mb-2">{t("labels.example")}</p>
-                    <p className="text-white">{s.example}</p>
+                    <p className="text-ink">{s.example}</p>
                   </div>
                 </div>
               </div>

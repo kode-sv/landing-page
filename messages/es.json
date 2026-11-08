@@ -1,0 +1,492 @@
+{
+  "meta": {
+    "siteName": "Kode SV",
+    "home": {
+      "title": "Kode SV — Desarrollo de software a medida para empresas",
+      "description": "Desarrollamos aplicaciones web, software empresarial y soluciones con inteligencia artificial para empresas de El Salvador, Centroamérica y Estados Unidos."
+    },
+    "services": {
+      "title": "Servicios — Kode SV",
+      "description": "Desarrollo web, software empresarial, inteligencia artificial y automatización, consultoría e integraciones. Soluciones a medida para tu empresa."
+    },
+    "work": {
+      "title": "Proyectos — Kode SV",
+      "description": "Tipos de soluciones que construimos: problema, solución y tecnologías."
+    },
+    "about": {
+      "title": "Nosotros — Kode SV",
+      "description": "Equipo de ingeniería remoto desde El Salvador, con comunicación directa y compatibilidad horaria con EE. UU."
+    },
+    "contact": {
+      "title": "Contacto — Kode SV",
+      "description": "Cuéntanos tu proyecto y recibe una propuesta, o agenda una llamada de descubrimiento."
+    },
+    "privacy": {
+      "title": "Política de privacidad — Kode SV",
+      "description": "Cómo Kode SV trata los datos personales que recibe a través de este sitio."
+    },
+    "terms": {
+      "title": "Términos de uso — Kode SV",
+      "description": "Condiciones aplicables al uso del sitio web de Kode SV."
+    }
+  },
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "work": "Proyectos",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "book": "Agendar reunión",
+    "menu": "Abrir menú",
+    "close": "Cerrar menú",
+    "language": "Idioma",
+    "skip": "Ir al contenido"
+  },
+  "common": {
+    "learnMore": "Ver detalle",
+    "quote": "Solicitar cotización",
+    "viewAll": "Ver todos los servicios",
+    "viewWork": "Ver todos los proyectos",
+    "problem": "Problema",
+    "solution": "Solución",
+    "stack": "Tecnologías"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "KODE SV — SOFTWARE DEVELOPMENT",
+      "title": "Transformamos ideas en soluciones digitales.",
+      "subtitle": "Desarrollamos aplicaciones web, software empresarial y soluciones con inteligencia artificial para impulsar el crecimiento de tu negocio.",
+      "primary": "Agendar consulta",
+      "secondary": "Explorar servicios",
+      "badges": [
+        "Equipo remoto desde El Salvador",
+        "Horario compatible con EE. UU.",
+        "Español e inglés"
+      ]
+    },
+    "services": {
+      "eyebrow": "Qué hacemos",
+      "title": "Nuestros servicios.",
+      "intro": "Software a la medida de tu operación, sin plantillas que no encajan."
+    },
+    "work": {
+      "eyebrow": "Proyectos",
+      "title": "Nuestros trabajos.",
+      "intro": "Así abordamos los retos más comunes de nuestros clientes."
+    },
+    "process": {
+      "eyebrow": "Cómo trabajamos",
+      "title": "Los pasos para desarrollar tu solución.",
+      "steps": [
+        {
+          "t": "Descubrimiento",
+          "d": "Entendemos tu negocio, tus procesos y qué resultado necesitas."
+        },
+        {
+          "t": "Propuesta",
+          "d": "Alcance, tiempos y costos claros antes de escribir una línea de código."
+        },
+        {
+          "t": "Desarrollo",
+          "d": "Entregas iterativas con demos periódicas para que veas el avance."
+        },
+        {
+          "t": "Lanzamiento",
+          "d": "Despliegue controlado, pruebas y capacitación de tu equipo."
+        },
+        {
+          "t": "Soporte",
+          "d": "Mantenimiento, monitoreo y evolución continua del sistema."
+        }
+      ]
+    },
+    "why": {
+      "eyebrow": "Por qué Kode SV",
+      "title": "Ingeniería seria, trato directo.",
+      "items": [
+        {
+          "t": "Experiencia técnica",
+          "d": "Arquitectura limpia, código mantenible y buenas prácticas de seguridad."
+        },
+        {
+          "t": "Comunicación directa",
+          "d": "Hablas con quienes construyen tu software, sin intermediarios."
+        },
+        {
+          "t": "Soluciones a medida",
+          "d": "Diseñadas para tu operación, no adaptadas de una plantilla genérica."
+        },
+        {
+          "t": "Trabajo remoto",
+          "d": "Colaboración fluida con herramientas modernas y reportes claros."
+        },
+        {
+          "t": "Compatibilidad horaria con EE. UU.",
+          "d": "Mismo horario de trabajo que tu equipo en Norteamérica."
+        }
+      ]
+    },
+    "final": {
+      "title": "Hablemos de tu proyecto.",
+      "text": "Cuéntanos qué necesitas y te respondemos en un día hábil con los siguientes pasos.",
+      "primary": "Agendar consulta",
+      "secondary": "Solicitar propuesta"
+    },
+    "tech": {
+      "eyebrow": "Tecnologías",
+      "title": "Las tecnologías con las que trabajamos.",
+      "intro": "Herramientas modernas, estables y con comunidad activa, elegidas según lo que tu proyecto necesita.",
+      "groups": [
+        {
+          "t": "Frontend",
+          "items": [
+            "Next.js",
+            "React",
+            "TypeScript",
+            "Tailwind CSS"
+          ]
+        },
+        {
+          "t": "Backend y datos",
+          "items": [
+            "Node.js",
+            "Python",
+            "PostgreSQL",
+            "APIs REST"
+          ]
+        },
+        {
+          "t": "IA y automatización",
+          "items": [
+            "LLMs",
+            "Workflows",
+            "Procesamiento de documentos"
+          ]
+        },
+        {
+          "t": "Infraestructura",
+          "items": [
+            "Vercel",
+            "Cloud",
+            "CI/CD",
+            "Seguridad"
+          ]
+        }
+      ]
+    },
+    "contactForm": {
+      "eyebrow": "Contacto",
+      "title": "Cuéntanos sobre tu proyecto.",
+      "text": "Completa el formulario y te respondemos en un día hábil."
+    }
+  },
+  "services": {
+    "hero": {
+      "eyebrow": "Servicios",
+      "title": "Soluciones de software para empresas.",
+      "intro": "Agrupamos nuestras capacidades en cuatro líneas para que sepas exactamente qué podemos construir contigo."
+    },
+    "labels": {
+      "solves": "Problemas que resuelve",
+      "features": "Funcionalidades típicas",
+      "tech": "Tecnologías",
+      "example": "Ejemplo"
+    },
+    "items": [
+      {
+        "id": "web",
+        "title": "Desarrollo web",
+        "short": "Sitios corporativos, aplicaciones web y plataformas comerciales a medida.",
+        "desc": "Diseñamos y construimos sitios web corporativos, aplicaciones web, plataformas comerciales y experiencias digitales rápidas, seguras y optimizadas para convertir visitantes en clientes.",
+        "solves": [
+          "Presencia web que no genera confianza ni prospectos",
+          "Procesos que viven en hojas de cálculo y correos",
+          "Sitios lentos, difíciles de actualizar o sin SEO"
+        ],
+        "features": [
+          "Sitios corporativos bilingües",
+          "Aplicaciones web y portales",
+          "Plataformas comerciales y catálogos",
+          "SEO técnico y analítica"
+        ],
+        "tech": [
+          "Next.js",
+          "React",
+          "TypeScript",
+          "Tailwind CSS"
+        ],
+        "example": "Portal web con catálogo, formulario de cotización y registro automático de prospectos."
+      },
+      {
+        "id": "software",
+        "title": "Software empresarial",
+        "short": "CRM, ERP a medida, inventarios y paneles administrativos.",
+        "desc": "Sistemas internos que ordenan la operación: ventas, inventario, facturación, tareas y reportes en un solo lugar, con permisos por rol y trazabilidad.",
+        "solves": [
+          "Información dispersa y reportes manuales",
+          "Falta de control de inventario y operaciones",
+          "Sistemas genéricos que no se adaptan a tu proceso"
+        ],
+        "features": [
+          "CRM y seguimiento comercial",
+          "Inventarios y compras",
+          "Paneles administrativos y reportes",
+          "Roles, permisos y auditoría"
+        ],
+        "tech": [
+          "Node.js",
+          "PostgreSQL",
+          "React",
+          "APIs REST"
+        ],
+        "example": "Sistema de inventario multi-sucursal con alertas de stock y reportes diarios."
+      },
+      {
+        "id": "ai",
+        "title": "Inteligencia artificial y automatización",
+        "short": "Asistentes, procesamiento de documentos y automatización de procesos.",
+        "desc": "Integramos IA donde aporta valor medible: automatizamos tareas repetitivas, extraemos datos de documentos y creamos asistentes conectados a tu información.",
+        "solves": [
+          "Horas perdidas en captura manual de datos",
+          "Atención repetitiva a consultas frecuentes",
+          "Procesos lentos entre áreas o sistemas"
+        ],
+        "features": [
+          "Procesamiento de documentos",
+          "Asistentes inteligentes internos",
+          "Automatización de flujos de trabajo",
+          "Integración de modelos de IA a tus sistemas"
+        ],
+        "tech": [
+          "LLMs",
+          "Python",
+          "Workflows",
+          "APIs"
+        ],
+        "example": "Lectura automática de facturas y carga de sus datos al sistema contable."
+      },
+      {
+        "id": "consulting",
+        "title": "Consultoría e integraciones",
+        "short": "Arquitectura, modernización, APIs, asesoría y mantenimiento.",
+        "desc": "Revisamos tu tecnología actual, definimos la arquitectura adecuada y conectamos tus sistemas. También ofrecemos mantenimiento y evolución continua.",
+        "solves": [
+          "Sistemas antiguos difíciles de mantener",
+          "Herramientas que no se comunican entre sí",
+          "Decisiones técnicas sin una opinión experta"
+        ],
+        "features": [
+          "Arquitectura de software",
+          "Modernización de sistemas",
+          "Integraciones y APIs",
+          "Mantenimiento y soporte"
+        ],
+        "tech": [
+          "Cloud",
+          "APIs",
+          "CI/CD",
+          "Seguridad"
+        ],
+        "example": "Integración entre el ERP actual, la tienda en línea y el sistema de envíos."
+      }
+    ]
+  },
+  "work": {
+    "hero": {
+      "eyebrow": "Proyectos",
+      "title": "Lo que construimos y cómo lo resolvemos.",
+      "intro": "Casos representativos del tipo de soluciones que desarrollamos. Publicaremos casos de estudio con clientes y resultados verificables a medida que cada proyecto lo permita."
+    },
+    "notice": "Los ejemplos describen tipos de solución; no incluyen cifras de clientes específicos.",
+    "projects": [
+      {
+        "id": "inventory",
+        "sector": "Comercio y distribución",
+        "title": "Control de inventario multi-sucursal",
+        "problem": "Existencias manejadas en hojas de cálculo, con diferencias entre sucursales y compras tardías.",
+        "solution": "Sistema web con stock en tiempo real, transferencias entre sucursales, alertas de mínimos y reportes.",
+        "tech": [
+          "Next.js",
+          "PostgreSQL",
+          "Node.js"
+        ]
+      },
+      {
+        "id": "crm",
+        "sector": "Servicios profesionales",
+        "title": "CRM y seguimiento de propuestas",
+        "problem": "Prospectos perdidos entre correos y mensajes, sin visibilidad del embudo de ventas.",
+        "solution": "CRM a medida que registra leads desde el sitio web, asigna seguimiento y mide conversión.",
+        "tech": [
+          "React",
+          "APIs REST",
+          "Automatización"
+        ]
+      },
+      {
+        "id": "docs",
+        "sector": "Finanzas y administración",
+        "title": "Procesamiento inteligente de documentos",
+        "problem": "Equipos que digitan manualmente datos de facturas y formularios.",
+        "solution": "Extracción automática con IA, validación humana de casos dudosos y envío a los sistemas internos.",
+        "tech": [
+          "LLMs",
+          "Python",
+          "Workflows"
+        ]
+      }
+    ]
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "Nosotros",
+      "title": "Un equipo de ingeniería que habla tu idioma.",
+      "intro": "Kode SV es una empresa de desarrollo de software con sede en El Salvador. Construimos tecnología para empresas que quieren operar mejor y crecer."
+    },
+    "mission": {
+      "title": "Nuestra misión",
+      "text": "Convertir los retos operativos de una empresa en software claro, confiable y fácil de usar, con una relación cercana y honesta con el cliente."
+    },
+    "values": {
+      "title": "Cómo nos comprometemos",
+      "items": [
+        {
+          "t": "Claridad",
+          "d": "Alcance, tiempos y costos acordados por escrito."
+        },
+        {
+          "t": "Calidad",
+          "d": "Código mantenible, pruebas y revisión técnica constante."
+        },
+        {
+          "t": "Seguridad",
+          "d": "Protección de datos desde el diseño, no como un añadido."
+        },
+        {
+          "t": "Acompañamiento",
+          "d": "No desaparecemos al lanzar: damos soporte y evolución."
+        }
+      ]
+    },
+    "reach": {
+      "title": "Dónde trabajamos",
+      "text": "Atendemos empresas en El Salvador, Centroamérica y Estados Unidos, de forma remota y con horarios compatibles."
+    },
+    "team": {
+      "title": "El equipo",
+      "note": "Pendiente: agregar fotos, nombres y roles reales del equipo fundador."
+    }
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Contacto",
+      "title": "Cuéntanos sobre tu proyecto.",
+      "intro": "Completa el formulario y te respondemos en un día hábil, o agenda directamente una llamada de descubrimiento."
+    },
+    "book": {
+      "title": "Agenda una llamada",
+      "text": "30 minutos para entender tu reto y proponer los siguientes pasos. Elige el horario en tu zona horaria.",
+      "cta": "Agendar reunión",
+      "tz": "Los horarios se muestran en tu zona horaria."
+    },
+    "form": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "company": "Empresa",
+      "service": "Servicio de interés",
+      "budget": "Presupuesto aproximado (opcional)",
+      "message": "Descripción del proyecto",
+      "servicePlaceholder": "Selecciona un servicio",
+      "budgetPlaceholder": "Prefiero hablarlo en la llamada",
+      "services": {
+        "web": "Desarrollo web",
+        "software": "Software empresarial",
+        "ai": "Inteligencia artificial y automatización",
+        "consulting": "Consultoría e integraciones",
+        "other": "Otro / no estoy seguro"
+      },
+      "budgets": {
+        "lt5": "Menos de $5,000",
+        "5to15": "$5,000 – $15,000",
+        "15to40": "$15,000 – $40,000",
+        "gt40": "Más de $40,000"
+      },
+      "consent": "Acepto que Kode SV use estos datos para responder mi solicitud, según la política de privacidad.",
+      "privacy": "política de privacidad",
+      "submit": "Enviar solicitud",
+      "sending": "Enviando…",
+      "success": {
+        "title": "¡Gracias! Recibimos tu solicitud.",
+        "text": "Te escribiremos en un día hábil al correo que indicaste."
+      },
+      "error": "No pudimos enviar tu solicitud. Intenta de nuevo o escríbenos por correo.",
+      "errors": {
+        "name": "Ingresa tu nombre.",
+        "email": "Ingresa un correo válido.",
+        "company": "Ingresa el nombre de tu empresa.",
+        "service": "Selecciona un servicio.",
+        "message": "Cuéntanos un poco más (mínimo 20 caracteres).",
+        "consent": "Debes aceptar para continuar."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Software a medida para empresas.",
+    "pages": "Sitio",
+    "legal": "Legal",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "regions": "El Salvador · Centroamérica · Estados Unidos",
+    "rights": "Todos los derechos reservados."
+  },
+  "privacy": {
+    "title": "Política de privacidad",
+    "updated": "Última actualización: noviembre de 2026",
+    "sections": [
+      {
+        "h": "Datos que recopilamos",
+        "p": "Cuando completas el formulario de contacto recopilamos tu nombre, correo, empresa, servicio de interés, presupuesto aproximado (opcional) y la descripción de tu proyecto. También podemos medir el uso del sitio con analítica agregada."
+      },
+      {
+        "h": "Para qué los usamos",
+        "p": "Usamos estos datos únicamente para responder tu solicitud, preparar una propuesta y dar seguimiento comercial. No vendemos tus datos."
+      },
+      {
+        "h": "Con quién los compartimos",
+        "p": "Solo con proveedores necesarios para operar el sitio y el seguimiento comercial (hospedaje, correo, CRM), sujetos a obligaciones de confidencialidad."
+      },
+      {
+        "h": "Conservación y derechos",
+        "p": "Conservamos los datos el tiempo necesario para la relación comercial. Puedes solicitar acceso, corrección o eliminación escribiéndonos al correo de contacto."
+      },
+      {
+        "h": "Seguridad",
+        "p": "Aplicamos validación, protección anti-spam y comunicaciones cifradas (HTTPS) para proteger la información."
+      }
+    ],
+    "draft": "Borrador informativo: debe ser revisado por asesoría legal antes de publicarse."
+  },
+  "terms": {
+    "title": "Términos de uso",
+    "updated": "Última actualización: noviembre de 2026",
+    "sections": [
+      {
+        "h": "Uso del sitio",
+        "p": "El contenido de este sitio es informativo. Está prohibido usarlo para fines ilícitos o intentar vulnerar su seguridad."
+      },
+      {
+        "h": "Propiedad intelectual",
+        "p": "Marcas, logotipos, textos y diseños pertenecen a Kode SV y no pueden reutilizarse sin autorización."
+      },
+      {
+        "h": "Cotizaciones y servicios",
+        "p": "El envío del formulario no constituye un contrato. Los servicios se rigen por la propuesta y el acuerdo firmado con cada cliente."
+      },
+      {
+        "h": "Limitación de responsabilidad",
+        "p": "Hacemos lo posible por mantener la información actualizada, pero no garantizamos que esté libre de errores."
+      }
+    ],
+    "draft": "Borrador informativo: debe ser revisado por asesoría legal antes de publicarse."
+  }
+}

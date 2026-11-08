@@ -1,0 +1,75 @@
+{
+  "version": "2.21",
+  "children": [],
+  "variables": {
+    "navy": {
+      "type": "color",
+      "value": "#0A1D5C"
+    },
+    "cyan": {
+      "type": "color",
+      "value": "#A5E1FA"
+    },
+    "blue": {
+      "type": "color",
+      "value": "#0F6AA8"
+    },
+    "navy-deep": {
+      "type": "color",
+      "value": "#06123D"
+    },
+    "blue-tint": {
+      "type": "color",
+      "value": "#D6E9F7"
+    },
+    "white": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "paper": {
+      "type": "color",
+      "value": "#FFFDF6"
+    },
+    "muted-light": {
+      "type": "color",
+      "value": "#5D6A92"
+    },
+    "muted-dark": {
+      "type": "color",
+      "value": "#7A88AD"
+    },
+    "divider-dark": {
+      "type": "color",
+      "value": "#A8B3D6"
+    },
+    "alert": {
+      "type": "color",
+      "value": "#D93B40"
+    },
+    "success": {
+      "type": "color",
+      "value": "#22C55E"
+    },
+    "success-tint": {
+      "type": "color",
+      "value": "#DCFCE7"
+    },
+    "font-display": {
+      "type": "string",
+      "value": "Bricolage Grotesque"
+    },
+    "font-body": {
+      "type": "string",
+      "value": "Instrument Sans"
+    },
+    "font-brand": {
+      "type": "string",
+      "value": "Exo 2"
+    },
+    "font-mono": {
+      "type": "string",
+      "value": "Space Mono"
+    }
+  },
+  "fileToken": "bf514f27-9fc8-4ea6-8524-136676fdd82a"
+}

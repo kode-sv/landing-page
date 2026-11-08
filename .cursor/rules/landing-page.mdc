@@ -1,0 +1,54 @@
+---
+description: How to build this Kode SV landing with Next.js 16, Tailwind 4, and next-intl
+alwaysApply: true
+---
+
+# Landing page
+
+## Stack
+
+- Next.js 16 App Router, React 19, TypeScript, Tailwind 4, next-intl, motion, react-hook-form, zod.
+- Before using a Next.js API, read the matching guide in `node_modules/next/dist/docs/`.
+- Do not assume Next.js 14 APIs.
+- Do not add Supabase, shadcn, Radix, or `nuqs`.
+
+## Files
+
+- Components: `components/Nombre.tsx` with `export function`.
+- Pages: `app/[locale]/.../page.tsx` with `export default` and async on the server.
+- Data and schemas: `lib/`.
+- Locale routing: `i18n/`.
+- New folders: lowercase; use a hyphen for two-word names.
+
+## Locale
+
+- Visible copy only through next-intl: `getTranslations` on the server, `useTranslations` on the client.
+- Locales are `es` and `en`, as in `lib/site.ts`.
+
+## Server and client
+
+- Default to Server Components.
+- Use `'use client'` only in small islands that need the browser, motion, or form state.
+- Do not fetch data on the client.
+- Add loading and error UI when the interface is async.
+
+## UI
+
+- Tailwind, mobile-first, semantic HTML.
+- Keyboard access, alternative text, visible focus, WCAG 2.1 AA contrast.
+- Touch targets at least 44px. One clear primary action.
+- Photos via `next/image`; defer below-the-fold content.
+- Keep motion short; use the `motion` package.
+
+## Forms
+
+- Adaptive layout, correct input types, inline errors.
+- Same pattern as the contact form: react-hook-form + zod in `lib/schema.ts`.
+
+## Security and quality
+
+- Keep secrets off the client. Public config only via `NEXT_PUBLIC_*`, as in `lib/site.ts`.
+- Validate request bodies in routes like `app/api/lead/route.ts`.
+- No TODOs or placeholder copy.
+- If the request is ambiguous, stop and ask.
+- Keep explanations short; show code when the change is not obvious.
